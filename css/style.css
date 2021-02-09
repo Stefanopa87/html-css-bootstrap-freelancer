@@ -1,0 +1,11 @@
+/* debug */
+[class*="col-"]{
+  min-height: 100px;
+  background: red;
+  border: solid 1px #000;
+}
+
+
+header{
+  background-color: #2C3E50;
+}
