@@ -28,28 +28,28 @@ h1{
 }
 
 .my-star::after {
-    position: absolute;
-    content: "";
-    height: 3px;
-    width: 150px;
-    top: 15px;
-    background-color: #fff;
-    border-radius: 5px;
-    /* margin-left: 15px; */
-    left: 45px;
+  position: absolute;
+  content: "";
+  height: 3px;
+  width: 150px;
+  top: 15px;
+  background-color: #fff;
+  border-radius: 5px;
+  /* margin-left: 15px; */
+  left: 45px;
 
 }
 
 .my-star::before {
-    position: absolute;
-    content: "";
-    height: 3px;
-    width: 150px;
-    top: 15px;
-    background-color: #fff;
-    border-radius: 5px;
-    /* margin-right: 15px; */
-    right: 45px;
+  position: absolute;
+  content: "";
+  height: 3px;
+  width: 150px;
+  top: 15px;
+  background-color: #fff;
+  border-radius: 5px;
+  /* margin-right: 15px; */
+  right: 45px;
 
 }
 
@@ -72,21 +72,21 @@ header .navbar-default .navbar-nav>li>a {
 
 header .navbar-default .navbar-nav>li>a:focus,
 header .navbar-default .navbar-nav>li>a:hover {
-    color: #1ABC9C;
-    background-color: transparent;
+  color: #1ABC9C;
+  background-color: transparent;
 
 }
 
 @media all and (min-width: 768px) {
   body{
-    margin-top: 120px;
+  margin-top: 120px;
   }
   .navbar {
-    padding: 35px 0;
+  padding: 35px 0;
   }
   .navbar-brand{
-    font-size: xx-large;
-    font-weight: 700;
+  font-size: xx-large;
+  font-weight: 700;
   }
 }
 
@@ -123,15 +123,15 @@ header .navbar-default .navbar-nav>li>a:hover {
 }
 
 .layover {
-    position: absolute;
-    background-color: rgba(26, 188, 156, 0.9);
-    z-index: 2;
-    border-radius: 30px;
+  position: absolute;
+  background-color: rgba(26, 188, 156, 0.9);
+  z-index: 2;
+  border-radius: 30px;
 }
 
 .layover:hover {
-    border-radius: 100px;
-    cursor: pointer;
+  border-radius: 100px;
+  cursor: pointer;
 }
 
 
@@ -141,10 +141,33 @@ header .navbar-default .navbar-nav>li>a:hover {
   color: #fff;
 }
 
+.about button {
+  padding: 1% 1%;
+  margin-bottom: 2%;
+  color: #fff;
+  background-color: #1abc9c;
+  border-color: #fff;
+  font-size: 2rem;
 
+}
 
+/* CONTACT ME */
 
+.contact .my-star::after,
+.contact .my-star::before {
+  background-color: #2C3E50;
+}
 
+.contact button {
+  color: #fff;
+  background-color: #1abc9c;
+  border-color: #1abc9c;
+  padding: 1% 2%;
+  font-size: 2rem;
+  margin: 2% 0;
+}
+
+/* footer */
 
 .footer_up{
   background-color: #2C3E50;
