@@ -1,14 +1,52 @@
 /* debug */
-[class*="col-"]{
+/* [class*="col-"]{
   min-height: 100px;
   background: red;
   border: solid 1px #000;
+} */
+
+body{
+  margin-top: 50px;
 }
 
-
-header{
+header .navbar,
+header .navbar-default{
   background-color: #2C3E50;
+  background-image: none;
+  border-radius: 0;
+  border: none;
+  margin-bottom: 0;
 }
+
+header .navbar-default .navbar-brand,
+header .navbar-default .navbar-nav>li>a {
+  color: #fff;
+}
+
+header .navbar-default .navbar-nav>li>a:focus,
+header .navbar-default .navbar-nav>li>a:hover {
+    color: #1ABC9C;
+    background-color: transparent;
+
+}
+
+@media all and (min-width: 768px) {
+  body{
+    margin-top: 120px;
+  }
+  .navbar {
+    padding: 35px 0;
+  }
+  .navbar-brand{
+    font-size: xx-large;
+    font-weight: 700;
+  }
+}
+
+
+
+
+
 
 .jumbotron{
   background-color: #1ABC9C;
