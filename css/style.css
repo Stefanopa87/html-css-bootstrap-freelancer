@@ -5,9 +5,56 @@
   border: solid 1px #000;
 } */
 
+/* generali */
+
 body{
   margin-top: 50px;
 }
+
+h1{
+  font-weight: bold;
+  font-size: 5rem;
+}
+
+.my-star{
+  position: relative;
+  height: 30px;
+  display: inline-block;
+}
+
+
+.my-star svg{
+  height: 100%;
+}
+
+.my-star::after {
+    position: absolute;
+    content: "";
+    height: 3px;
+    width: 150px;
+    top: 15px;
+    background-color: #fff;
+    border-radius: 5px;
+    /* margin-left: 15px; */
+    left: 45px;
+
+}
+
+.my-star::before {
+    position: absolute;
+    content: "";
+    height: 3px;
+    width: 150px;
+    top: 15px;
+    background-color: #fff;
+    border-radius: 5px;
+    /* margin-right: 15px; */
+    right: 45px;
+
+}
+
+
+/* header */
 
 header .navbar,
 header .navbar-default{
@@ -43,13 +90,27 @@ header .navbar-default .navbar-nav>li>a:hover {
   }
 }
 
-
-
-
-
-
+/* jumbotron */
 .jumbotron{
   background-color: #1ABC9C;
+  color: #fff;
+}
+
+.jumbotron img:first-child{
+  width: 35%;
+}
+
+.jumbotron h1{
+  font-size: 7rem;
+}
+
+/* portfolio */
+
+.portfolio .my-star::after,
+.portfolio .my-star::before {
+  background-color: #2C3E50;
+
+
 }
 
 .about{
