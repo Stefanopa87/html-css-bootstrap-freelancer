@@ -109,9 +109,38 @@ header .navbar-default .navbar-nav>li>a:hover {
 .portfolio .my-star::after,
 .portfolio .my-star::before {
   background-color: #2C3E50;
-
-
 }
+
+.my-space{
+  margin: 15px 0;
+}
+
+.my-dimension{
+  position: relative;
+  width: 80%;
+  border-radius: 10px;
+}
+
+.layover {
+    position: absolute;
+    background-color: rgba(26, 188, 156, 0.9);
+    z-index: 1;
+    border-radius: 30px;
+}
+
+.layover:hover {
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
 
 .about{
   background-color: #1ABC9C;
