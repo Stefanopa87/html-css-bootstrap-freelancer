@@ -119,12 +119,13 @@ header .navbar-default .navbar-nav>li>a:hover {
   position: relative;
   width: 80%;
   border-radius: 10px;
+  z-index: 1;
 }
 
 .layover {
     position: absolute;
     background-color: rgba(26, 188, 156, 0.9);
-    z-index: 1;
+    z-index: 2;
     border-radius: 30px;
 }
 
@@ -134,17 +135,16 @@ header .navbar-default .navbar-nav>li>a:hover {
 }
 
 
-
-
-
-
-
-
-
-
+/* ABOUT */
 .about{
   background-color: #1ABC9C;
+  color: #fff;
 }
+
+
+
+
+
 
 .footer_up{
   background-color: #2C3E50;
